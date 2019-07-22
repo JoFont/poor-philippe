@@ -15,30 +15,33 @@
 
 
     onMount(() => {
-
         const updateTime = () => {
             time = format(new Date(), "HH:mm:ss");
             timeInSec = Number(format(new Date(), "s"));
             timeInMin = Number(format(new Date(), "m"));
             timeInHour = Number(format(new Date(), "h"));
 
-            // let secToDeg = ((timeInSec / 60) * 360) + 90;
-            // secondTick.style.transform = `rotate(${secToDeg}deg)`;
+            console.log(((timeInMin / 60) * 360) + ((timeInSec / 60) * 6) + 90);
             
+            // Minutes to degrees, the first part gets the actual Minute in degrees, the second part, adds some deegrees of the Seconds
             let minToDeg = ((timeInMin / 60) * 360) + ((timeInSec / 60) * 6) + 90;
+            // Move Ticker
             minuteTick.style.transform = `rotate(${minToDeg}deg)`;
-            
-            // Hours to degrees, the first part gets the actual hour in dewgrees, the second part, adds some deegrees of the minute
+
+            // Hours to degrees, the first part gets the actual hour in degrees, the second part, adds some deegrees of the Minutes
             let hourToDeg = ((timeInHour / 12) * 360) + ((timeInMin / 60) * 30) + 90;
+            // Move Ticker
             hourTick.style.transform = `rotate(${hourToDeg}deg)`;
+
         };
         setInterval(updateTime, 1000);
-        
+
     });
-
-    
-
 </script>
+
+<svelte:head>
+	<title>Poor Phillipe - {time}</title>
+</svelte:head>
 
 <style>
     main {

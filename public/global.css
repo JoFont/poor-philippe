@@ -63,3 +63,13 @@ button:focus {
 	border-color: #666;
 }
 
+.test {
+	background: linear-gradient(
+		0deg
+		, rgb(226, 198, 86) 0%
+		, rgb(226, 198, 86) 50%
+		, rgb(250, 218, 94) 50%
+		, rgb(250, 218, 94) 100% 
+	);
+
+}
