@@ -4,6 +4,7 @@
 	export let name;
 </script>
 
+
 <style>
 	.clock {
 		min-width: 500px;
