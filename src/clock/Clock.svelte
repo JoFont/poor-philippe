@@ -1,3 +1,5 @@
+<!-- STABLE -->
+
 <script>
     // Imports date-fns
     import { format } from "date-fns";
@@ -22,7 +24,7 @@
             timeInHour = Number(format(new Date(), "h"));
 
             console.log(((timeInMin / 60) * 360) + ((timeInSec / 60) * 6) + 90);
-            
+
             // Minutes to degrees, the first part gets the actual Minute in degrees, the second part, adds some deegrees of the Seconds
             let minToDeg = ((timeInMin / 60) * 360) + ((timeInSec / 60) * 6) + 90;
             // Move Ticker
