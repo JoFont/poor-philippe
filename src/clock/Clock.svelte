@@ -1,5 +1,4 @@
-
-<!-- MASTER -->
+<!-- STABLE -->
 
 <script>
     // Imports date-fns
