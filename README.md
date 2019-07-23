@@ -6,7 +6,7 @@
 This is just a fun little web app with a real-time Patek Philippe 3862/1 clock.
 Feel free to for and use this project at will, following the instructions bellow.
 
-[Demo](poor-philippe.netlify.com)
+[Demo](https://poor-philippe.netlify.com)
 
 ## Get started
 
