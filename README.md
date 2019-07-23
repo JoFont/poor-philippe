@@ -9,10 +9,10 @@ Feel free to for and use this project at will, following the instructions bellow
 ## Get started
 
 ### Svelte 3
-This project is done using Svelte 3, please follow the [Svelte 3](https://svelte.dev/tutorial/basics) if you never used Svelte, or refer to the [Docs](https://svelte.dev/docs) for more information.
+This project is done using Svelte 3, please follow the [Svelte 3 Tutorial](https://svelte.dev/tutorial/basics) if you never used Svelte or, refer to the [Docs](https://svelte.dev/docs) for more information.
 
-*I Do recommend Installing a Svelte extension for syntax highlighting, or snippets, on your text editor of choice.*
-*For VS Code, I recommend [Svelte Language Support](https://marketplace.visualstudio.com/items?itemName=JamesBirtles.svelte-vscode) and, [Svelte 3 Snippets](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-svelte-snippets)*
+*I do recommend installing a Svelte extension for syntax highlighting, or snippets, on your text editor of choice.*
+*For VS Code, I recommend [Svelte Language Support](https://marketplace.visualstudio.com/items?itemName=JamesBirtles.svelte-vscode) and, [Svelte 3 Snippets](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-svelte-snippets).*
 
 
 Install the dependencies...
